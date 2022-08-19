@@ -14,6 +14,8 @@ gem "redis", "~> 4.0"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
+gem "cloudinary"
+
 gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails"
 
