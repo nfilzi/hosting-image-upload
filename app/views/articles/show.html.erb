@@ -1,4 +1,8 @@
-<%= cl_image_tag @article.banner.key, width: 200 %>
+<% if @article.banner.attached? %>
+  <%= cl_image_tag @article.banner.key, width: 200 %>
+<% else %>
+  <p>No banner yet</p>
+<% end %>
 
 <p style="color: green"><%= notice %></p>
 
