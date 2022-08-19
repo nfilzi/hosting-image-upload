@@ -17,6 +17,8 @@ gem "bootsnap", require: false
 gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails"
 
+gem "dotenv-rails", groups: [:development, :test]
+
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
